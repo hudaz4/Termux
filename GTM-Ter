@@ -1,43 +1,14 @@
-NS='dns.ssh-sg-3.vpnsvr.net'
-NS1='sg3dns.mainssh.com'
-NS2='dns.frs-2.optnl.com'
-NS3='sg2ray-dns.mainssh.com'
-NS4='ns-sg3dns.srvdns.us'
-NS5='ns-ph1.vpnjantit.com'
-NS6='ns-ph2.vpnjantit.com'
-NS7='ns-ph3.vpnjantit.com'
-NS8='ns-ph4.vpnjantit.com'
-NS9='ns-ph5.vpnjantit.com'
-NS10='ns-ph6.vpnjantit.com'
-NS11='ns-ph7.vpnjantit.com'
-NS12='ns-ph8.vpnjantit.com'
-NS13='ns-premiph.vpnjantit.com'
-NS14='ns-premiph2.vpnjantit.com'
-NS15='ns-premiph3.vpnjantit.com'
-NS16='dns.xs-1.optnl.com'
-NS17='dns.xs-2.optnl.com'
-NS18='dns.sgs-3.optnl.com'
-NS19='dns.sgs-2.optnl.com'
-NS20='dns.sgs-4.optnl.com'
-NS21='ns-sg1.slwdns.xyz'
-NS22='ns-sg2.slwdns.xyz'
-NS23='ns-jp1.slwdns.xyz'
-NS24='ns-jp1.vpnjantit.com'
-NS25='ns-jp2.vpnjantit.com'
-NS26='ns-jp3.vpnjz.com'
-NS27='ns-jp6.vpnjz.com'
-NS28='ns-premijp1.vpnjz.com'
-NS29='ns-sg10.vpnjantit.com'
-NS30='ns-sg11.vpnjz.com'
-NS31='ns-sg2.vpnjz.com'
-NS32='ns-sg9.vpnjantit.com'
-NS33='ns-sggs4.vpnjantit.com'
+NS='j.snow.palaboy.tech'
+NS1='ns.fast.palaboy.tech'
+NS2='kalabasa.palaboy.tech'
+NS3='j.snow.palaboy.tech'
+NS4='ns.fast.palaboy.tech'
 A='dns.ssh-sg-3.vpnsvr.net'
 
 
 LOOP_DELAY=5
 
-declare -a HOSTS=('124.6.181.36' '124.6.181.20' '124.6.181.12')
+declare -a HOSTS=('124.6.181.20 124.6.181.12 124.6.181.36 112.198.115.44 112.198.115.36 112.198.115.60 124.6.181.44 gtm.palaboy.tech')
 DIG_EXEC="DEFAULT"
 
 CUSTOM_DIG=/data/data/com.termux/files/home/go/bin/fastdig
