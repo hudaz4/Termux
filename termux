@@ -21,7 +21,7 @@ declare -A SERVERS=(
     ["j.snow.palaboy.tech"]="124.6.181.20 124.6.181.36 124.6.181.12"
     ["kalabasa.palaboy.tech"]="124.6.181.20 124.6.181.36 124.6.181.12"
     ["j.snow.palaboy.tech"]="124.6.181.20 124.6.181.36 124.6.181.12"
-    ["ns.fast.palaboy.tech"]="124.6.181.20 124.6.181.36 124.6.181.12"
+    ["nsgtm2.bigboss-vpn.online"]="124.6.181.20 124.6.181.36 124.6.181.12"
 )
 
 ## Linux' dig command executable filepath
