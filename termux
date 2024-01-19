@@ -19,8 +19,8 @@ LOOP_DELAY=5
 declare -A SERVERS=(
     ["ns.fast.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
     ["j.snow.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
-    ["ns.kalabasa.palaboy.tech"]="gtm.palaboy.tech"
-    ["j.snow.palaboy.tech"]="gtm.palaboy.tech"
+    ["ns.kalabasa.palaboy.tech"]="124.6.181.4 124.6.181.36 112.198.115.44 112.198.111.92 112.198.115.36 112.198.115.60 124.6.181.12 124.6.181.44 124.6.181.20 gtm.palaboy.tech"
+    ["j.snow.palaboy.tech"]="124.6.181.4 124.6.181.36 112.198.115.44 112.198.111.92 112.198.115.36 112.198.115.60 124.6.181.12 124.6.181.44 124.6.181.20 gtm.palaboy.tech"
     ["nsgtm2.bigboss-vpn.online"]="124.6.181.4 124.6.181.36 124.6.181.12"
 )
 
