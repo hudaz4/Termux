@@ -17,11 +17,11 @@ LOOP_DELAY=5
 ## Define the aligned nameservers and hosts
 
 declare -A SERVERS=(
-    ["ns.fast.palaboy.tech"]="124.6.181.20 124.6.181.36 124.6.181.12"
-    ["j.snow.palaboy.tech"]="124.6.181.20 124.6.181.36 124.6.181.12"
-    ["kalabasa.palaboy.tech"]="124.6.181.20 124.6.181.36 124.6.181.12"
-    ["j.snow.palaboy.tech"]="124.6.181.20 124.6.181.36 124.6.181.12"
-    ["nsgtm2.bigboss-vpn.online"]="124.6.181.20 124.6.181.36 124.6.181.12"
+    ["ns.fast.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["j.snow.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["ns.kalabasa.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["j.snow.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["nsgtm2.bigboss-vpn.online"]="124.6.181.4 124.6.181.36 124.6.181.12"
 )
 
 ## Linux' dig command executable filepath
