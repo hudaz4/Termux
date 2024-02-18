@@ -8,7 +8,7 @@
 
 ## Run this script excluded from your VPN tunnel (split VPN tunneling mode)
 
-## run command: ./globe-J_Kim.sh l
+## run command: ./globe-James.sh l
 
 ## Repeat dig command loop time (seconds) (positive integer only)
 
@@ -17,11 +17,12 @@ LOOP_DELAY=5
 ## Define the aligned nameservers and hosts
 
 declare -A SERVERS=(
-    ["us.kalabaw.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
-    ["sg.kambing.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
-    ["ind.palaka.palaboy.tech"]="124.6.181.4 124.6.181.36 112.198.115.44 112.198.111.92 112.198.115.36 112.198.115.60 124.6.181.12 124.6.181.44 124.6.181.20 gtm.palaboy.tech"
+    ["in.plastik.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["ns.bakal.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["jp.vannesa.palaboy.tech"]="124.6.181.4 124.6.181.36 112.198.115.44 112.198.111.92 112.198.115.36 112.198.115.60 124.6.181.12 124.6.181.44 124.6.181.20 gtm.palaboy.tech"
     ["hp.bisiro.palaboy.tech"]="124.6.181.4 124.6.181.36 112.198.115.44 112.198.111.92 112.198.115.36 112.198.115.60 124.6.181.12 124.6.181.44 124.6.181.20 gtm.palaboy.tech"
-    ["fr.manok.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["us.bote.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["ns.leonardo.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
 )
 
 ## Linux' dig command executable filepath
