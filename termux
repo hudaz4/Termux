@@ -23,6 +23,7 @@ declare -A SERVERS=(
     ["hp.bisiro.palaboy.tech"]="124.6.181.4 124.6.181.36 112.198.115.44 112.198.111.92 112.198.115.36 112.198.115.60 124.6.181.12 124.6.181.44 124.6.181.20 gtm.palaboy.tech"
     ["us.bote.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
     ["ns.leonardo.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["ns.jenny.lantindns.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
 )
 
 ## Linux' dig command executable filepath
