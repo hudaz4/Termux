@@ -24,8 +24,13 @@ declare -A SERVERS=(
     ["us.bote.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
     ["ns.leonardo.palaboy.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
     ["ns.jenny.lantindns.tech"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["ns.jerald.acerodns.xyz"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["ns.dnsttpremium.acerodns.xyz"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["ns.japandnstt.acerodns.xyz"]="124.6.181.4 124.6.181.36 112.198.115.44 112.198.111.92 112.198.115.36 112.198.115.60 124.6.181.12 124.6.181.44 124.6.181.20 gtm.palaboy.tech"
+    ["ns.kiratest.acerodns.xyz"]="124.6.181.4 124.6.181.36 112.198.115.44 112.198.111.92 112.198.115.36 112.198.115.60 124.6.181.12 124.6.181.44 124.6.181.20 gtm.palaboy.tech"
+    ["ns.paid.acerodns.xyz"]="124.6.181.4 124.6.181.36 124.6.181.12"
+    ["ns.noel.acerodns.xyz"]="124.6.181.4 124.6.181.36 124.6.181.12"   
 )
-
 ## Linux' dig command executable filepath
 ## Select value: "CUSTOM|C" or "DEFAULT|D"
 
