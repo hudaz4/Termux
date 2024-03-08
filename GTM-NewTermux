@@ -17,8 +17,8 @@ LOOP_DELAY=1  # Set the loop delay to 1 second
 ## Your DNSTT Nameserver & your Domain `A` Record
 
 NS='ns.dnstt.palaboy.tech'
-NS1='ns.dnstt.palaboy.tech'
-NS2='ns.dnstt.palaboy.tech'
+NS1='james.blu.palaboy.tech'
+NS2='blu.james.palaboy.tech'
 A='ns.dnstt.palaboy.tech'
 
 ## Add your DNS here
