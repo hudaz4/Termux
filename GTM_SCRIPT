@@ -15,18 +15,18 @@ NC="\e[0m"
 
 # Function to print a title
 print_title() {
-    echo -e "${Blue}==================================${NC}"
+    echo -e "${Blue}👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇${NC}"
     echo -e "${RED}$1${NC}"
-    echo -e "${BLUE}==================================${NC}"
+    echo -e "${BLUE}👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆${NC}"
 }
 
 # Function to show steps with error handling
 show_step() {
-    echo -e "${GREEN}[✔]${NC} $1"
+    echo -e "${PINK}[✔]${NC} $1"
 }
 
 show_error() {
-    echo -e "${RED}[✖] Error: $1${NC}"
+    echo -e "${ORENGE}[✖] Error: $1${NC}"
     exit 1
 }
 
