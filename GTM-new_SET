@@ -1,0 +1,83 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# Termux SCRIPT
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+WHITE='\033[1;37m'
+NC='\033[0m'
+
+VER="4.2"
+
+# Detect architecture
+get_arch() {
+    case "$(uname -m)" in
+        aarch64) echo "aarch64" ;;
+        x86_64) echo "x86_64" ;;
+        armv7l|armv8l|arm) echo "arm" ;;
+        i*86) echo "i686" ;;
+        *) echo "unknown" ;;
+    esac
+}
+
+# Check for supported architecture FIRST
+ARCH_TYPE="$(get_arch)"
+if [[ "$ARCH_TYPE" != "aarch64" && "$ARCH_TYPE" != "x86_64" ]]; then
+    echo -e "${RED}Unsupported architecture: $ARCH_TYPE${NC}"
+    echo -e "${YELLOW}Please download Termux for architecture: aarch64 or x86_64${NC}"
+    exit 1
+fi
+
+# Check for Termux
+if [ ! -d "/data/data/com.termux" ]; then
+    echo -e "${RED}This script is for Termux only!${NC}"
+    exit 1
+fi
+
+clear_screen() {
+    clear
+}
+
+main_installation() {
+
+    rm -rf install
+    apt update -y
+    # Install required packages for the script to work
+    apt install -y bash grep curl git
+    apt install -y dnsutils
+    apt install -y wget
+    apt install -y nano
+
+    local ARCH="$(get_arch)"
+    local URL_BASE="https://github.com/hahacrunchyrollls/jerico-termux/raw/refs/heads/main"
+    local SCRIPT_NAME="James-termux"
+    wget "$URL_BASE/$SCRIPT_NAME"
+    chmod +x "$SCRIPT_NAME"
+    mv "$(pwd)/$SCRIPT_NAME" /data/data/com.termux/files/usr/bin/jer
+
+    echo
+    echo -e "${WHITE}   INSTALLATION COMPLETE   ${NC}"
+    echo
+    echo -e "${CYAN}TERMUX SCRIPT${NC}"
+    echo -e "${BLUE}https://phcorner.net/members/phc_jerico.1922181${NC}"
+    echo
+    echo -e "${YELLOW}Press Enter to continue...${NC}"
+    read -p ""
+}
+
+handle_error() {
+    echo -e "\n${RED}Error at ${progress}%!${NC}"
+    echo -e "${YELLOW}Try:${NC}"
+    echo -e "1. Checking internet"
+    echo -e "2. Running 'apt update'"
+    exit 1
+}
+
+trap 'handle_error' ERR
+
+main_installation
+
+echo -e "${GREEN}Ready! Type 'james' to start${NC}"
